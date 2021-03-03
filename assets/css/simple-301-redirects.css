@@ -1,0 +1,45 @@
+.simple301redirects {
+  padding-right: 20px;
+  padding-top: 20px;
+}
+.simple301redirects .simple301redirects__topbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #fff;
+  padding: 20px;
+  border: 1px solid #ebebeb;
+  box-shadow: 0 5px 5px rgba(235, 235, 235, 0.05);
+  margin-bottom: 20px;
+}
+.simple301redirects .simple301redirects__topbar .simple301redirects__topbar__logo {
+  display: flex;
+  margin-right: 15px;
+}
+.simple301redirects .simple301redirects__topbar .simple301redirects__topbar__logo img {
+  height: 40px;
+}
+.simple301redirects .simple301redirects__topbar .simple301redirects__topbar__title {
+  font-size: 23px;
+  font-weight: 400;
+  color: #252525;
+  margin: 0;
+}
+.simple301redirects .simple301redirects__managelinks {
+  background: #fff;
+  padding: 20px;
+  border: 1px solid #ebebeb;
+  box-shadow: 0 5px 5px rgba(235, 235, 235, 0.05);
+}
+.simple301redirects .simple301redirects__managelinks .simple301redirects__managelinks__info,
+.simple301redirects .simple301redirects__managelinks .simple301redirects__managelinks__item {
+  display: flex;
+}
+.simple301redirects .simple301redirects__managelinks .simple301redirects__managelinks__info__inner,
+.simple301redirects .simple301redirects__managelinks .simple301redirects__managelinks__item__inner {
+  width: calc(100% - 350px);
+}
+.simple301redirects .simple301redirects__managelinks .simple301redirects__managelinks__info .simple301redirects__managelinks__item__control,
+.simple301redirects .simple301redirects__managelinks .simple301redirects__managelinks__item .simple301redirects__managelinks__item__control {
+  width: 350px;
+}

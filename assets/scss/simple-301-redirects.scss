@@ -1,0 +1,23 @@
+.simple301redirects {
+    padding-right: 20px;
+    padding-top: 20px;
+    @import "utilities/variable";
+    @import "utilities/header";
+
+    .simple301redirects__managelinks{
+        background: $white;
+        padding: 20px;
+        border: 1px solid $light-darken;
+        box-shadow: 0 5px 5px rgba(#ebebeb, 0.05);
+        .simple301redirects__managelinks__info,
+        .simple301redirects__managelinks__item{
+            display: flex;
+            &__inner{
+                width: calc(100% - 350px);
+            }
+            .simple301redirects__managelinks__item__control{
+                width: 350px;
+            }
+        }
+    }
+}
