@@ -10,7 +10,7 @@ export default function Link(props) {
 	return (
 		<React.Fragment>
 			<div className="simple301redirects__managelinks__item">
-				<div className="simple301redirects__managelinks__item-inner">
+				<div className="simple301redirects__managelinks__item__inner">
 					<div className="simple301redirects__managelinks__item__request">
 						<input type="text" name="request" />
 					</div>
